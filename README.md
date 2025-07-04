@@ -34,8 +34,8 @@ CRM система разработана на Django 5.2 и предназна�
 
 ```
 
-git clone https://github.com/yourusername/crm_project.git
-cd crm_project
+git clone https://github.com/martinankru325/CRM-system.git
+cd CRM-system
 
 ```
 
@@ -61,7 +61,7 @@ pip install -r requirements.txt
 
 - Создайте базу данных `crm_db`
 - Создайте пользователя `crm_user` с паролем
-- Обновите настройки в `crm_project/settings.py`, если необходимо
+- Обновите настройки в `CRM-system/settings.py`, если необходимо
 
 5. Выполните миграции:
 
