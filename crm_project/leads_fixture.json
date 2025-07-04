@@ -1,0 +1,22 @@
+[
+  {
+    "model": "products.lead",
+    "pk": 1,
+    "fields": {
+      "full_name": "Иван Иванов",
+      "phone": "+79991234567",
+      "email": "ivan.ivanov@example.com",
+      "ads": 1
+    }
+  },
+  {
+    "model": "products.lead",
+    "pk": 2,
+    "fields": {
+      "full_name": "Мария Петрова",
+      "phone": "+79997654321",
+      "email": "maria.petrova@example.com",
+      "ads": 2
+    }
+  }
+]

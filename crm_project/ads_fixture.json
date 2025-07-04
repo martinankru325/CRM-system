@@ -1,0 +1,22 @@
+[
+  {
+    "model": "products.ad",
+    "pk": 1,
+    "fields": {
+      "name": "Реклама №1",
+      "product": 1,
+      "channel": "Социальные сети",
+      "budget": "5000.00"
+    }
+  },
+  {
+    "model": "products.ad",
+    "pk": 2,
+    "fields": {
+      "name": "Реклама №2",
+      "product": 2,
+      "channel": "Контекстная реклама",
+      "budget": "7000.00"
+    }
+  }
+]

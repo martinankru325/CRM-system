@@ -1,0 +1,20 @@
+[
+  {
+    "model": "products.product",
+    "pk": 1,
+    "fields": {
+      "name": "Продукт X",
+      "description": "Описание продукта X",
+      "price": "1999.99"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 2,
+    "fields": {
+      "name": "Продукт Y",
+      "description": "Описание продукта Y",
+      "price": "2999.99"
+    }
+  }
+]

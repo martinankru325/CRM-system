@@ -1,0 +1,18 @@
+[
+  {
+    "model": "products.customer",
+    "pk": 1,
+    "fields": {
+      "lead": 1,
+      "contract": 1
+    }
+  },
+  {
+    "model": "products.customer",
+    "pk": 2,
+    "fields": {
+      "lead": 2,
+      "contract": 2
+    }
+  }
+]

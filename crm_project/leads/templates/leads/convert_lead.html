@@ -1,0 +1,13 @@
+{% extends "_base.html" %}
+
+{% block content %}
+<h2>Конвертация лида: {{ lead.first_name }} {{ lead.last_name }}</h2>
+
+<form method="POST" enctype="multipart/form-data">
+    {% csrf_token %}
+    {{ contract_form.as_p }}
+    <button type="submit" class="btn btn-primary">Создать контракт и клиента</button>
+    <a href="{% url 'leads:leads-detail' lead.pk %}" class="btn btn-secondary ms-2">Отмена</a>
+</form>
+
+{% endblock %}
